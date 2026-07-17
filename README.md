@@ -244,6 +244,23 @@ The processor was synthesized using **AMD Vivado 2025.2** targeting the **Artix-
 
 The synthesis results indicate a compact implementation with low resource utilization, leaving ample FPGA resources available for future extensions such as caches, branch prediction, and additional peripherals.
 
+## FPGA Implementation Results
+
+The processor was successfully synthesized and implemented in **AMD Vivado 2025.2** targeting the **Artix-7 XC7A200T FPGA**.
+
+### Timing Summary
+
+| Metric | Value |
+|--------|-------|
+| Target Clock | 100 MHz |
+| Clock Period | 10.000 ns |
+| Worst Negative Slack (WNS) | +0.026 ns |
+| Total Negative Slack (TNS) | 0.000 ns |
+| Worst Hold Slack (WHS) | +0.088 ns |
+| Timing Status | **PASS** |
+
+All user-specified timing constraints were successfully met after place-and-route.
+
 # Future Improvements
 
 - Branch Prediction
