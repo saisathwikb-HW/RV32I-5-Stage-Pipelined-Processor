@@ -25,7 +25,18 @@ A 32-bit five-stage pipelined RISC-V (RV32I) processor implemented in Verilog HD
 - Functional Verification
 - FPGA Synthesis (Vivado)
 
+| Feature | Status |
+|---------|--------|
+| ISA | RV32I |
+| Pipeline | 5-Stage |
+| Language | Verilog HDL |
+| Hazard Detection | ✓ |
+| Data Forwarding | ✓ |
+| Branch & Jump Support | ✓ |
+| FPGA Synthesis | ✓ |
+| Timing Closure | ✓ @100 MHz |
 ---
+
 
 ## Supported Instructions
 
