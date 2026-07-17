@@ -187,7 +187,49 @@ An integrated test program was executed to verify:
 - Control Flow
 
 ---
+# Functional Verification
 
+The processor was functionally verified using Vivado Behavioral Simulation. The verification covers instruction execution through the five-stage pipeline, data forwarding, load/store operations, branch handling, hazard detection, and register write-back.
+
+## Simulation Waveform 1
+
+<p align="center">
+  <img src="images/simulation_waveform1.png" alt="Pipeline Execution Waveform" width="1000">
+</p>
+
+**Signals observed**
+
+- Program Counter (`pcF`, `pcD`, `pcE`)
+- Instruction Fetch & Decode (`instrD`)
+- Register File (`Rd1D`, `Rd2D`, `Rs1D`, `Rs2D`, `RdD`)
+- Execute Stage (`Rd1E`, `Rd2E`, `SrcAE`, `SrcBE`)
+- ALU Output (`ALUResultE`)
+- Branch Target (`pc_imm`)
+- Branch Decision (`BranchTaken`, `BranchCond`)
+- Forwarding Unit (`ForwardAE`, `ForwardBE`)
+- PC Selection (`PCSrcE`)
+
+This waveform demonstrates correct instruction fetch, decode, execution, operand forwarding, ALU operation, and branch decision generation within the pipelined processor.
+
+---
+
+## Simulation Waveform 2
+
+<p align="center">
+  <img src="images/simulation_waveform2.png" alt="Memory and Hazard Verification Waveform" width="1000">
+</p>
+
+**Signals observed**
+
+- Execute Stage (`Rd1E`, `Rd2E`, `SrcAE`, `SrcBE`)
+- ALU Result (`ALUResultE`, `ALUResultM`)
+- Memory Interface (`WriteDataM`, `ReadDataM`)
+- Write-back Stage (`ResultW`, `RdW`, `RegWriteW`)
+- Branch Control (`BranchTaken`, `BranchCond`, `PCSrcE`)
+- Forwarding Control (`ForwardAE`, `ForwardBE`)
+- Hazard Detection (`StallF`, `StallD`, `FlushD`, `FlushE`)
+
+This waveform verifies memory read/write operations, register write-back, forwarding logic, branch control, and correct hazard handling through pipeline stall and flush mechanisms.
 # Synthesis
 
 Tool:
