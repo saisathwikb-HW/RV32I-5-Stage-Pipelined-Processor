@@ -138,11 +138,16 @@ Implemented mechanisms:
 │   ├── ALU.v
 │   ├── Hazard_unit.v
 │   ├── control_unit.v
+│   ├── datapath.v
+│   ├── register_file.v
+│   ├── instruction_memory.v
+│   ├── data_memory.v
+│   ├── pipeline_registers.v
 │   ├── RISC_TOP.v
-│   ├── ...
+│   └── ...
 │
 ├── tb/
-│   └── testbench.v
+│   └── RISC_V_tb.v
 │
 ├── mem/
 │   └── memfile.hex
@@ -157,6 +162,9 @@ Implemented mechanisms:
 │
 ├── images/
 │   ├── processor_architecture.png
+│   ├── simulation_waveform1.png
+│   └── simulation_waveform2.png
+│
 └── README.md
 ```
 
