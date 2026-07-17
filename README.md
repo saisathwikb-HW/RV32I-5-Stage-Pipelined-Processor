@@ -184,6 +184,7 @@ An integrated test program was executed to verify:
 - Control Flow
 
 ---
+
 ## Functional Verification
 
 The processor was functionally verified using Vivado Behavioral Simulation. The verification covers instruction execution through the five-stage pipeline, data forwarding, load/store operations, branch handling, hazard detection, and register write-back.
@@ -240,6 +241,7 @@ Target FPGA:
 Timing analysis and resource utilization reports are included in the `reports` directory.
 
 ---
+
 ### FPGA Synthesis Summary
 
 The processor was synthesized using **AMD Vivado 2025.2** targeting the **Artix-7 XC7A200T (xc7a200tfbg676-3)** FPGA.
