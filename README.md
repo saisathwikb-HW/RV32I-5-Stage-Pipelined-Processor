@@ -1,7 +1,6 @@
 # 32-bit 5-Stage Pipelined RISC-V Processor (RV32I)
 
-A 32-bit five-stage pipelined RISC-V (RV32I) processor implemented in Verilog HDL. The processor supports the base integer instruction set with hazard detection, data forwarding, branch handling, and functional verification through simulation.
-
+A 32-bit five-stage pipelined RISC-V (RV32I) processor implemented in Verilog HDL. The processor supports the complete RV32I base integer instruction set and incorporates hazard detection, data forwarding, branch handling, functional verification through simulation, and FPGA implementation using AMD Vivado.
 ---
 
 ## Features
