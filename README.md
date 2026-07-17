@@ -132,7 +132,6 @@ Implemented mechanisms:
 # Repository Structure
 
 ```
-```text
 .
 ├── rtl/                    # RTL source files
 ├── tb/                     # Testbench
