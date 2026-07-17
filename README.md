@@ -295,8 +295,8 @@ The overall processor organization was developed with reference to publicly avai
 
 ---
 
-# Author
+## Author
 
-**Sathwik B**
+**Sai Sathwik B**
 
-M.Tech – VLSI Design
+
