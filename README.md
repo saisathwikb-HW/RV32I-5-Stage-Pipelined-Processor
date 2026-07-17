@@ -157,11 +157,6 @@ Implemented mechanisms:
 │
 ├── images/
 │   ├── processor_architecture.png
-│   ├── datapath.png
-│   ├── forwarding.png
-│   ├── waveform.png
-│   └── synthesis.png
-│
 └── README.md
 ```
 
