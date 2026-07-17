@@ -149,7 +149,7 @@ Implemented mechanisms:
 ├── constraints/            # FPGA constraint file
 ├── reports/                # Synthesis and utilization reports
 ├── images/
-│   ├── Blockdiagram_32bit_risc.png
+│   ├── processor_architecture.png
 │   ├── simulation_waveform1.png
 │   └── simulation_waveform2.png
 └── README.md
