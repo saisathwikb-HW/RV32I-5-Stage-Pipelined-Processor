@@ -230,6 +230,19 @@ Target FPGA:
 Timing analysis and resource utilization reports are included in the `reports` directory.
 
 ---
+## FPGA Synthesis Summary
+
+The processor was synthesized using **AMD Vivado 2025.2** targeting the **Artix-7 XC7A200T (xc7a200tfbg676-3)** FPGA.
+
+| Resource | Used | Utilization |
+|----------|-----:|------------:|
+| Slice LUTs | 1850 | 1.37% |
+| Slice Registers | 1066 | 0.40% |
+| Block RAM | 0 | 0.00% |
+| DSP Slices | 0 | 0.00% |
+| Global Clock Buffers (BUFG) | 1 | 3.13% |
+
+The synthesis results indicate a compact implementation with low resource utilization, leaving ample FPGA resources available for future extensions such as caches, branch prediction, and additional peripherals.
 
 # Future Improvements
 
