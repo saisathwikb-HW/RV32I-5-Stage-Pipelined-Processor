@@ -86,7 +86,7 @@ A 32-bit five-stage pipelined RISC-V (RV32I) processor implemented in Verilog HD
 # Processor Architecture
 
 <p align="center">
-<img src="images/processor_architecture.png" width="900">
+<img src="images/bd111_annotated-1.png" width="900">
 </p>
 
 ---
