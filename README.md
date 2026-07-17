@@ -233,7 +233,6 @@ This waveform verifies memory read/write operations, register write-back, forwar
 
 ## Synthesis
 
-## Synthesis
 
 Tool:
 
