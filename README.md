@@ -34,6 +34,7 @@ A 32-bit five-stage pipelined RISC-V (RV32I) processor implemented in Verilog HD
 | Branch & Jump Support | ✓ |
 | FPGA Synthesis | ✓ |
 | Timing Closure | ✓ @100 MHz |
+
 ---
 
 
