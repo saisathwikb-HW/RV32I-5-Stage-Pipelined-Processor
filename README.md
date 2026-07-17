@@ -228,6 +228,11 @@ This waveform demonstrates correct instruction fetch, decode, execution, operand
 - Hazard Detection (`StallF`, `StallD`, `FlushD`, `FlushE`)
 
 This waveform verifies memory read/write operations, register write-back, forwarding logic, branch control, and correct hazard handling through pipeline stall and flush mechanisms.
+
+---
+
+## Synthesis
+
 ## Synthesis
 
 Tool:
