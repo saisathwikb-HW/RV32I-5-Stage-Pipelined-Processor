@@ -133,39 +133,19 @@ Implemented mechanisms:
 # Repository Structure
 
 ```
+```text
 .
-├── rtl/
-│   ├── ALU.v
-│   ├── Hazard_unit.v
-│   ├── control_unit.v
-│   ├── datapath.v
-│   ├── register_file.v
-│   ├── instruction_memory.v
-│   ├── data_memory.v
-│   ├── pipeline_registers.v
-│   ├── RISC_TOP.v
-│   └── ...
-│
-├── tb/
-│   └── RISC_V_tb.v
-│
-├── mem/
-│   └── memfile.hex
-│
-├── constraints/
-│   └── constraints.xdc
-│
-├── reports/
-│   ├── timing_report.pdf
-│   ├── utilization_report.pdf
-│   └── synthesis_report.pdf
-│
+├── rtl/                    # RTL source files
+├── tb/                     # Testbench
+├── mem/                    # Instruction memory initialization
+├── constraints/            # FPGA constraint file
+├── reports/                # Synthesis and utilization reports
 ├── images/
 │   ├── Blockdiagram_32bit_risc.png
 │   ├── simulation_waveform1.png
 │   └── simulation_waveform2.png
-│
 └── README.md
+
 ```
 
 ---
